@@ -1,0 +1,10 @@
+.CustomNavContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.CustomNavForm {
+    display: flex !important;
+    flex-direction: row !important;
+}

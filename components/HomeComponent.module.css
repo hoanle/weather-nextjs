@@ -1,0 +1,102 @@
+.div {
+    padding: 10px;
+}
+
+.root {
+    background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      gray,
+      black 50px
+    );
+    background-size: cover;
+    border: 10px solid darkturquoise !important;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.noPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.text {
+    color: brown;
+    font-size: 40px;
+}
+
+.input {
+    border: 2px solid white !important;
+    padding: 10px;
+    background-color: teal;
+    color: white !important;
+}
+
+.input::placeholder {
+    color: white !important;
+}
+
+.marginLeft {
+    margin-left: 20px;
+}
+
+.nav {
+    background-color: darkturquoise !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px solid white !important;
+}
+
+.darkturquoise {
+    color: black !important
+}
+
+.white {
+    color: white !important
+}
+.marginTop {
+    margin-top: 30px;
+}
+
+.mainContent  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityName {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: yellow;
+}
+
+.temperature {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: lightyellow;
+}
+
+.description {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: lightyellow;
+}
+
+.greeting {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: white;
+}
